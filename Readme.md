@@ -1,6 +1,6 @@
-#E2EE Chat Application  
+# E2EE Chat Application  
 
-##Setting Up  
+## Setting Up  
 1. Run following sql code in browser to create a users table.
     ```
     CREATE TABLE `e2eechat`.`USERS`(  

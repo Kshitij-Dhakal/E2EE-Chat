@@ -38,3 +38,5 @@
     * Open file showing errors.  
     * Navigate to error.  
     * Press <kbd>alt</kbd>+<kbd>enter</kbd> and select add dependency to ...
+8. Run ServerMain to start server.
+9. Run ChatClientMain to start application.

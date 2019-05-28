@@ -213,3 +213,11 @@ tags
 .history
 
 # End of https://www.gitignore.io/api/vim,java,eclipse,intellij,java-web,visualstudiocodei
+
+.idea/
+
+E2EE-Chat-Project-Dependencies/
+Multi-User-Chat-Client/
+Multi-User-Chat-Server/
+TDES/
+User-Handle-Desktop/

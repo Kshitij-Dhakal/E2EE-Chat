@@ -33,7 +33,7 @@
         git clone https://github.com/Kshitij-Dhakal/User-Handle-Desktop.git
     ```
 8. Download mysql-connector-java-5.1.47 and put jar in lib/ folder
-***
+<!-- *** -->
 ## Setting up ide
 ### Jetbrain's IntelliJ  
 1. Open E2EE-Chat folder.  

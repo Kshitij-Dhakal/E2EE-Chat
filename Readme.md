@@ -1,6 +1,14 @@
 # E2EE Chat Application  
 ## Setting Up  
-1. Run following sql code in browser to create a users table.
+1. Download and Install Xampp server into your local machine.
+2. Run Xampp server MySQL module.
+3. Run MySQL in Xampp.  
+    * Run shell.
+    * Run `mysql -u root` in shell.
+4. Execute following sql code.
+    ```
+    CREATE DATABASE `e2eechat`;
+    ```
     ```
     CREATE TABLE `e2eechat`.`USERS`(  
         `user_id` int NOT NULL AUTO_INCREMENT,  
@@ -12,11 +20,11 @@
         PRIMARY KEY(`user_id`)  
     ) ENGINE = InnoDB;  
     ```
-2. Clone this repository into local machine  
+5. Clone this repository into local machine  
     `git clone https://github.com/Kshitij-Dhakal/E2EE-Chat.git`
-3. Go into folder  
+6. Go into folder  
     `cd E2EE-Chat/`
-4. Clone all the required dependencies
+7. Clone all the required dependencies
     ```
         git clone https://github.com/Kshitij-Dhakal/E2EE-Chat-Project-Dependencies.git
         git clone https://github.com/Kshitij-Dhakal/Multi-User-Chat-Client.git
@@ -24,7 +32,7 @@
         git clone https://github.com/Kshitij-Dhakal/TDES.git
         git clone https://github.com/Kshitij-Dhakal/User-Handle-Desktop.git
     ```
-5. Download mysql-connector-java-5.1.47 and put jar in lib/ folder
+8. Download mysql-connector-java-5.1.47 and put jar in lib/ folder
 ***
 ## Setting up ide
 ### Jetbrain's IntelliJ  
@@ -40,3 +48,7 @@
     * Press <kbd>alt</kbd>+<kbd>enter</kbd> and select add dependency to ...
 8. Run ServerMain to start server.
 9. Run ChatClientMain to start application.
+
+### Netbeans
+
+### Eclipse

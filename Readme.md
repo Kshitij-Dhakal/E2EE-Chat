@@ -15,7 +15,7 @@
         `user_handle` VARCHAR(64) NOT NULL UNIQUE,  
         `first_name` VARCHAR(64) NOT NULL,  
         `last_name` VARCHAR(64) NOT NULL,  
-        `password` VARCHAR(128) NOT NULL,  
+        `password` VARCHAR(167) NOT NULL,
         `status` ENUM('ADMIN', 'MODERATOR', 'USER') NOT NULL   DEFAULT 'USER',  
         PRIMARY KEY(`user_id`)  
     ) ENGINE = InnoDB;  

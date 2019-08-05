@@ -18,7 +18,7 @@
         `password` VARCHAR(167) NOT NULL,
         `status` ENUM('ADMIN', 'MODERATOR', 'USER') NOT NULL   DEFAULT 'USER',  
         PRIMARY KEY(`user_id`)  
-    ) ENGINE = InnoDB;  
+    );  
     ```
 5. Clone this repository into local machine  
     `git clone https://github.com/Kshitij-Dhakal/E2EE-Chat.git`

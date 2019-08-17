@@ -225,3 +225,6 @@ assets/
 lib/
 Practice/Practice.iml
 
+test.*
+Test.*
+

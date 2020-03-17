@@ -41,13 +41,15 @@
 3. Setup Project SDK and Project compiler output in Project.  
 4. Add all the cloned dependencies as modules in Modules.  
 5. Add  mysql-connector-java-5.1.47.jar in Dependencies in Modules.  
-6. Add JAR from modules with dependencies artifacts in Artifacts. Select ChatClientMain from Multi-User-Chat-Client module as Main Class.  
-7. Fix dependencies between modules.  
+6. Download bridj, slf4j-api, slf4j-nop, sarxos's webcam-capture jar and add to lib/ folder.
+7. Add above jars in dependencies of module Multi-User-Chat-Client.
+8. Add JAR from modules with dependencies artifacts in Artifacts. Select ChatClientMain from Multi-User-Chat-Client module as Main Class.  
+9. Fix dependencies between modules.  
     * Open file showing errors.  
     * Navigate to error.  
     * Press <kbd>alt</kbd>+<kbd>enter</kbd> and select add dependency to ...
-8. Run ServerMain to start server.
-9. Run ChatClientMain to start application.
+10. Run ServerMain to start server.
+11. Run ChatClientMain to start application.
 
 ### Netbeans
 
